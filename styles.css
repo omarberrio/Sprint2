@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la sección de presentación */
+section:nth-child(2) {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Estilos para la sección de destacados */
+section:nth-child(3) {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para títulos */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilos para enlaces en el pie de página */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para enlaces en la sección de destacados */
+section:nth-child(3) a {
+    color: #333;
+    text-decoration: underline;
+}
+
