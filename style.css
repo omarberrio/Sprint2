@@ -1,0 +1,286 @@
+/* Estilo para el contenedor de la imagen */
+.image-container {
+    position: relative;
+}
+
+/* Estilo para la imagen */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para el cuadro de texto traslúcido */
+.transparent-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    padding: 10px; 
+    width: 60%; 
+    max-width: 300px; 
+    height: 70px; 
+    display: none; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.transparent-box h1 {
+    font-size: 16px; 
+    color: white;
+    text-align: center;
+}
+
+.transparent-box p {
+    font-size: 12px; 
+    color: white;
+    text-align: center;
+}
+
+ /* Mostrar la caja al pasar el mouse sobre el contenedor */
+ .image-container:hover .transparent-box {
+    display: block;
+}
+
+/* Estilos generales del footer */
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 30px 0; 
+}
+
+/* Estilo para el título de redes sociales y datos de contacto */
+footer h4 {
+    font-size: 20px; 
+    margin-bottom: 15px; 
+}
+
+/* Estilo para la lista de iconos de redes sociales */
+.social-icons {
+    list-style: none; 
+    padding: 0; 
+}
+
+.social-icons li {
+    display: inline-block; 
+    margin-right: 20px; 
+    font-size: 24px; 
+}
+
+/* Estilo para la lista de datos de contacto */
+.contact-info {
+    list-style: none; 
+    padding: 0; 
+}
+
+.contact-info li {
+    margin-bottom: 10px; 
+    font-size: 16px; 
+}
+
+/* Estilo para los iconos de contacto */
+.contact-info i {
+    margin-right: 10px;
+    font-size: 18px; 
+}
+
+/* Estilo para los enlaces de redes sociales */
+.social-icons a {
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.social-icons a:hover {
+    color: #f8f8f8; 
+}
+/* Estilos para la sección Quiénes Somos */
+#about-us {
+    background-color: #f8f8f8; 
+    padding: 40px 0; 
+}
+
+#about-us h2 {
+    font-size: 28px; 
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+#about-us p {
+    font-size: 16px; 
+    color: #666; 
+    line-height: 1.6; 
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.custom-margin {
+    margin-left: 40px;
+}
+
+/* Estilos personalizados para el botón "Ir a la página de inicio" */
+.btn-go-home {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px; 
+    margin: 0 auto; 
+}
+
+.btn-go-home:hover {
+    background-color: #0056b3; 
+}
+
+/* Estilos para el formulario de registro */
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Estilo para el botón de registro */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #333;
+}
+
+/* Estilo para el texto de encabezado */
+h2 {
+    color: #333;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Estilo para los campos de formulario */
+.form-label {
+    font-weight: bold;
+}
+
+/* Añadir un poco de espacio a la parte inferior del formulario */
+.container {
+    margin-bottom: 50px;
+}
+
+/* Cambiar el color del enlace de la barra de navegación */
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff;
+}
+
+/* Cambiar el color del enlace de la barra de navegación al pasar el cursor sobre ellos */
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+    color: #007bff;
+}
+
+/* Cambiar el color del enlace de registro */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+/* Cambiar el color del enlace de registro al pasar el cursor sobre ellos */
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+    background-color: #333; 
+    color: #fff; 
+}
+
+/* Estilo para los enlaces en el menú desplegable */
+.dropdown-item {
+    color: #fff; 
+}
+
+/* Cambiar el color del enlace en el menú desplegable cuando se pasa el cursor sobre él */
+.dropdown-item:hover {
+    background-color: #007bff; 
+    color: #fff; 
+}
+/* Estilos para el campo de búsqueda */
+.form-control {
+    width: 300px; 
+    margin-right: 10px; 
+    border-radius: 25px; 
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-primary {
+    background-color: #007bff; 
+    border-color: #007bff; 
+    color: #fff; 
+    border-radius: 25px; 
+}
+
+/* Cambiar el color del botón de búsqueda al pasar el cursor sobre él */
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+}
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Estilos para el contenido de la página de administración */
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilos para los enlaces en la página de administración */
+a {
+    color: #007bff; 
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+
+
+
+
